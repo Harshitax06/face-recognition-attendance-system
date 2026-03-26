@@ -36,12 +36,13 @@ This project is a face recognition-based attendance system developed using Pytho
 
 # Installation & Setup
 
-1. Clone the repository:
+git clone https://github.com/Harshitax06/face-recognition-attendance-system.git
 
+cd face-recognition-attendance-system
 
+pip install -r requirements.txt
 
-
-
+python AttendanceProject.py
 
 
 
