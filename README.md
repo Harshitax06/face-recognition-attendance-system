@@ -4,7 +4,10 @@
 
 The management of the attendance can be a great burden on the teachers if it is done by hand. To resolve this problem, smart and auto attendance management system is being utilized. By utilizing this framework, the problem of proxies and students being marked present even though they are not physically present can easily be solved. This system marks the attendance using live video stream. The frames are extracted from video using OpenCV. The main implementation steps used in this type of system are face detection and recognizing the detected face, for which dlib is used. After these, the connection of recognized faces ought to be conceivable by comparing with the database containing student's faces. This model will be a successful technique to manage the attendance of students.
 
-Live Webcam based Face Attendance System Project through python programming
+# Problem Statement
+Live Webcam based Face Attendance System Project through python programming and openCv
+Manual attendance systems are time-consuming and prone to errors such as proxy attendance. This project aims to automate attendance using face recognition technology.
+
 
 # Details 
 
@@ -29,6 +32,13 @@ This project is a face recognition-based attendance system developed using Pytho
 - NumPy
 - VS Code
 
+# How It Works
+- Captures live video using webcam
+- Detects faces using OpenCV
+- Encodes faces using face_recognition library
+- Matches faces with stored dataset
+- Marks attendance in CSV file
+
 # Project Structure
 - AttendanceProject.py → Main file
 - dataset → Stored images
@@ -43,6 +53,18 @@ cd face-recognition-attendance-system
 pip install -r requirements.txt
 
 python AttendanceProject.py
+
+  
+
+# Output
+The system detects faces in real-time and marks attendance automatically in a CSV file with date and time.
+
+# Learning Outcomes
+- Learned face recognition concepts
+- Worked with OpenCV and Python
+- Implemented real-time attendance system
+
+
 
 
 
